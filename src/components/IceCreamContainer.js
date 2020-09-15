@@ -9,7 +9,7 @@ import React from 'react'
 import { buyIcecream } from '../redux'
 import { connect } from 'react-redux'
 
-function IcecreamContainer(props) {
+function IceCreamContainer(props) {
     return (
         <div>
             <h1>Normal IceCream Container</h1>
@@ -34,4 +34,4 @@ const mapDispatchToProps = (dispatch) => {
 export default connect(
     mapStateToProps,
     mapDispatchToProps
-)(IcecreamContainer)
+)(IceCreamContainer)
