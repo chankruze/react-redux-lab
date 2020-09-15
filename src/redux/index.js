@@ -7,3 +7,4 @@ Copyright (c) Geekofia 2020 and beyond
 
 export { buyCake } from './cake/cakeActions'
 export { buyIcecream } from './iceCream/iceCreamActions'
+export { buyHotDog } from './hotDog/hotDogActions'

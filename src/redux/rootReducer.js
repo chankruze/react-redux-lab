@@ -7,11 +7,13 @@ Copyright (c) Geekofia 2020 and beyond
 
 import { combineReducers } from 'redux'
 import cakeReducer from './cake/cakeReducer'
+import hotDogReducer from './hotDog/hotDogReducer'
 import iceCreamReducer from './iceCream/iceCreamReducer'
 
 const rootReducer = combineReducers({
     cake: cakeReducer,
-    iceCream: iceCreamReducer
+    iceCream: iceCreamReducer,
+    hotDog: hotDogReducer
 })
 
 export default rootReducer
